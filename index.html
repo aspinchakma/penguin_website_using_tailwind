@@ -37,6 +37,12 @@
         box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
         background: rgb(255, 255, 255);
       }
+      .benefit {
+        border-radius: 20px;
+        box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+        background: rgb(255, 255, 255);
+        padding: 25px 34px;
+      }
     </style>
   </head>
   <body>
@@ -95,7 +101,7 @@
         </section>
       </div>
     </header>
-    <main class="border w-[95%] mx-auto lg:w-4/5">
+    <main class="w-[95%] mx-auto lg:w-4/5">
       <!-- Woman Jacket section start -->
       <section class="woman_jacket_container my-[30px] lg:my-[70px]">
         <h2
@@ -244,5 +250,51 @@
         </div>
       </section>
     </main>
+    <footer
+      class="w-[95%] mx-auto grid grid-cols-1 my-16 lg:w-4/5 lg:grid-cols-2 lg:gap-10 lg:items-center"
+    >
+      <div class="footer_left">
+        <div class="benefit mt-10 lg:mt-4">
+          <div class="benefit_image">
+            <img class="w-[66px] mx-auto" src="icons/house.png" alt="" />
+          </div>
+          <div class="benefit_description text-center">
+            <h3 class="text-2xl font-bold text-[#363958]">
+              Find the Perfect Fit
+            </h3>
+            <p>
+              Everybody is different, which is why we offer styles for every
+              body.
+            </p>
+          </div>
+        </div>
+        <div class="benefit mt-10 lg:m-4">
+          <div class="benefit_image">
+            <img class="w-[66px] mx-auto" src="icons/box.png" alt="" />
+          </div>
+          <div class="benefit_description text-center">
+            <h3 class="text-2xl font-bold text-[#363958]">Free Exchanges</h3>
+            <p>One of the many reasons you can shop with peace of mind.</p>
+          </div>
+        </div>
+        <div class="benefit mt-10 lg:mt-4">
+          <div class="benefit_image">
+            <img class="w-[66px] mx-auto" src="icons/question.png" alt="" />
+          </div>
+          <div class="benefit_description text-center">
+            <h3 class="text-2xl font-bold text-[#363958]">
+              Contact Our Seller
+            </h3>
+            <p>
+              They are here to help you. That's quite literally what we pay them
+              for.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="footer_right order-first lg:order-last">
+        <img src="images/shopping.png" alt="" />
+      </div>
+    </footer>
   </body>
 </html>
