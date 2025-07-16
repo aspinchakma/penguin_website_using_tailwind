@@ -26,40 +26,65 @@
       body {
         font-family: "Roboto", sans-serif;
       }
+      .banner_container .banner_left h1 {
+        font-family: "Bebas Neue", sans-serif;
+      }
     </style>
   </head>
   <body>
-    <header>
-      <div class="header_container border lg:w-4/5 mx-auto w-[95%]">
+    <header class="bg-[#FFFBF0] pt-[20px] lg:pt-[45px] lg:pb-[82px]">
+      <div class="header_container lg:w-4/5 mx-auto w-[95%]">
         <!-- navigation bar start -->
         <nav class="flex justify-between items-center">
           <img class="lg:max-w-[297px] w-[193px]" src="icons/logo.png" alt="" />
           <ul class="flex">
             <li class="hidden lg:block">
-              <a class="text-xl border px-4 py-2 inline-block" href="">Home</a>
+              <a class="text-xl px-4 py-2 inline-block" href="">Home</a>
             </li>
             <li class="hidden lg:block">
-              <a class="text-xl border px-4 py-2 inline-block" href=""
-                >Product</a
-              >
+              <a class="text-xl px-4 py-2 inline-block" href="">Product</a>
             </li>
             <li class="hidden lg:block">
-              <a class="text-xl border px-4 py-2 inline-block" href=""
-                >About Us</a
-              >
+              <a class="text-xl px-4 py-2 inline-block" href="">About Us</a>
             </li>
             <li class="hidden lg:block">
-              <a class="text-xl border px-4 py-2 inline-block" href=""
-                >Contact Us</a
-              >
+              <a class="text-xl px-4 py-2 inline-block" href="">Contact Us</a>
             </li>
             <li>
-              <a class="text-xl border px-4 py-2 inline-block" href=""
+              <a class="text-xl px-4 py-2 inline-block" href=""
                 ><i class="fa-solid fa-bars"></i
               ></a>
             </li>
           </ul>
         </nav>
+
+        <!-- Banner or Hero section start -->
+        <section
+          class="banner_container lg:grid grid-cols-2 gap-40 items-center"
+        >
+          <div class="banner_left">
+            <h1
+              class="uppercase text-6xl leading-[72px] text-[#363958] lg:text-8xl lg:leading-[90px]"
+            >
+              <span class="text-[#fabe4c]"> Be the Penguins </span>
+              of Winter
+            </h1>
+            <p class="mt-2 leading-6 lg:max-w-[357px]">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <button
+              class="rounded-lg mt-5 uppercase px-8 py-4 font-bold text-white bg-linear-to-r from-[#A4BC46] to-[#85A019]"
+            >
+              Buy Now
+            </button>
+          </div>
+
+          <!-- Banner right section -->
+          <div class="banner_right py-10">
+            <img class="w-[90%] lg:w-auto" src="images/model.png" alt="" />
+          </div>
+        </section>
       </div>
     </header>
   </body>
