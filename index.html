@@ -11,6 +11,14 @@
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <!-- Font awesome cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <!-- tailwind css cdn link -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -20,5 +28,39 @@
       }
     </style>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="header_container border lg:w-4/5 mx-auto w-[95%]">
+        <!-- navigation bar start -->
+        <nav class="flex justify-between items-center">
+          <img class="lg:max-w-[297px] w-[193px]" src="icons/logo.png" alt="" />
+          <ul class="flex">
+            <li class="hidden lg:block">
+              <a class="text-xl border px-4 py-2 inline-block" href="">Home</a>
+            </li>
+            <li class="hidden lg:block">
+              <a class="text-xl border px-4 py-2 inline-block" href=""
+                >Product</a
+              >
+            </li>
+            <li class="hidden lg:block">
+              <a class="text-xl border px-4 py-2 inline-block" href=""
+                >About Us</a
+              >
+            </li>
+            <li class="hidden lg:block">
+              <a class="text-xl border px-4 py-2 inline-block" href=""
+                >Contact Us</a
+              >
+            </li>
+            <li>
+              <a class="text-xl border px-4 py-2 inline-block" href=""
+                ><i class="fa-solid fa-bars"></i
+              ></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  </body>
 </html>
